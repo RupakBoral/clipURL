@@ -1,18 +1,18 @@
 {
-  "name": "url-shortner",
+  "name": "clipurl",
   "version": "1.0.0",
   "description": "URL Shortner using Redis",
   "keywords": [
     "URL",
     "Shortner"
   ],
-  "homepage": "https://github.com/RupakBoral/URL-Shortner#readme",
+  "homepage": "https://github.com/RupakBoral/clipURL/#readme",
   "bugs": {
-    "url": "https://github.com/RupakBoral/URL-Shortner/issues"
+    "url": "https://github.com/RupakBoral/clipURL/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RupakBoral/URL-Shortner.git"
+    "url": "git+https://github.com/RupakBoral/clipURL.git"
   },
   "license": "ISC",
   "author": "RupakBoral",
@@ -28,8 +28,7 @@
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
     "ioredis": "^5.10.1",
-    "morgan": "^1.10.1",
-    "nanoid": "^5.1.7"
+    "morgan": "^1.10.1"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
