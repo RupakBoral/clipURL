@@ -1,0 +1,42 @@
+{
+  "name": "url-shortner",
+  "version": "1.0.0",
+  "description": "URL Shortner using Redis",
+  "keywords": [
+    "URL",
+    "Shortner"
+  ],
+  "homepage": "https://github.com/RupakBoral/URL-Shortner#readme",
+  "bugs": {
+    "url": "https://github.com/RupakBoral/URL-Shortner/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RupakBoral/URL-Shortner.git"
+  },
+  "license": "ISC",
+  "author": "RupakBoral",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "ioredis": "^5.10.1",
+    "morgan": "^1.10.1",
+    "nanoid": "^5.1.7"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/morgan": "^1.9.10",
+    "@types/node": "^25.5.0",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  }
+}
